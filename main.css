@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Muli:wght@200&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Muli', sans-serif;
+    outline: none;
+}
+
+body {
+    background-color: #51ff00;
+}
+
+.todos-container {
+    width: 270px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 14px;
+}
+
+form {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 20px 0;
+}
+
+input {
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+}
+
+input:hover {
+    border-color: #777;
+}
+
+input:focus {
+    border-color: #141414;
+}
+
+ol {
+    padding-left: 1em;
+}
+
+ol li {
+    position: relative;
+    padding: 10px;
+    border-radius: 2px;
+}
+
+ol li:nth-child(even) {
+    background-color: #ccc;
+}
+
+.completed {
+    text-decoration: line-through;
+    opacity: 0.7;
+}
+
+ol button:hover {
+    color: #fff;
+    background-color: #ff3b3b;
+}
+
+.btns {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn {
+    padding: 10px 20px;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.btns .btn {
+    border-radius: 20px;
+}
+
+.btn:hover {
+    color: #fff;
+    background-color: #51ff00;
+    cursor: pointer;
+}
+
+.btn.dismiss:hover {
+    background-color: #ff3b3b;
+}
+
+button:focus {
+    outline: 2px solid #141414;
+}
